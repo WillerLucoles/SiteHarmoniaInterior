@@ -7,8 +7,8 @@ export default function Home() {
     <div className="">
       {/* Header Section */}
       <header className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1 className="text-4xl font-bold text-white">Transforme Seu Espaço com Estilo</h1>
-        <p className="font-poppins text-4xl">Projetos personalizados que refletem sua personalidade.</p>
+        <h1 className="font-poppins text-4xl font-bold">Transforme Seu Espaço com Estilo</h1>
+        <p className="text-4xl">Projetos personalizados que refletem sua personalidade.</p>
         <button className="font-inter bg-blue-500 text-white py-2 px-4 rounded">Solicite uma Estimativa Grátis</button>
       </header>
 
