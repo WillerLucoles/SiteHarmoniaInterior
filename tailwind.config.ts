@@ -7,10 +7,28 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container:{
+      padding:{
+        DEFOULT: '15px',
+      }
+    },
+    screens:{
+      sm:'640px',
+      md:'768px',
+      lg:'960px',
+      xl:'1200px',
+    },
     extend: {
+      fontFamily:{
+        inter: ['var(--font-inter)'],
+        poppins: ['var(--font-poppins)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkgray: '#383f41',
+        mediumgray: '#50595c',
+        lightgray: '#e6e6e6',
       },
     },
   },
