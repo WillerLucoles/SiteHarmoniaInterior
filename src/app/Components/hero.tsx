@@ -1,29 +1,72 @@
-import { FaArrowRight } from "react-icons/fa";
+"use client";
+
+import { useState, useEffect } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Hero() {
-    return (
-      <section className="relative h-[460px] xl:h-[840px] xl:rounded-bl-[290px] z-20 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-[-1] xl:rounded-bl-[290px] overflow-hidden">
-          <Image 
-            src="/hero/Hero_Background.jpg" 
-            alt="Background Image" 
-            layout="fill" 
-            objectFit="cover" 
-            objectPosition="center" 
-            quality={100}
-            priority={true} 
-          />
-        </div>
+  const [currentImage, setCurrentImage] = useState(0);
+  const images = [
+    "/hero/pexels_Hero_Background1.jpg",
+    "/hero/pexels_Hero_Background2.jpg",
+    "/hero/pexels_Hero_Background3.jpg",
+    "/hero/pexels_Hero_Background4.jpg",
+  ];
 
-        {/* Text and Button */}
-        <div className="container mx-auto h-full flex items-center justify-start">
-            <div className="hero__text w-[750px] flex flex-col items-start justify-start text-left pl-4 sm:pl-0">
-                <h1 className="h1 mb-8 font-poppins font-semibold">Seu espaço, nossa inspiração</h1>                
-                <button className="btn btn-primary xl:mx-0 font-poppins font-medium">Solicite um orçamento <FaArrowRight /></button>
-            </div>
+  // Função para avançar para a próxima imagem automaticamente a cada 4 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+    }, 4000); // Transição automática a cada 4 segundos
+    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+  }, []);
+
+  return (
+    <section className="flex flex-col sm:flex-row h-[1000px] xl:rounded-bl-[290px] bg-hero bg-cover">
+      {/* Texto - 50% */}
+      <div className="w-full sm:w-[50%] h-full flex items-center justify-center">
+        <div className="hero__text w-full flex flex-col items-start justify-start text-left px-4 sm:px-8">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-semibold mb-4">
+            Seu espaço,
+          </h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-semibold mb-4">
+            nossa inspiração
+          </h1>
+          <h2 className="text-2xl font-poppins font-light mb-8">
+            Transformando ambientes com harmonia e design
+          </h2>
+          <button className="btn btn-primary font-poppins font-medium mb-4 lg:text-sm">
+            Solicite um orçamento <FaArrowRight />
+          </button>
         </div>
-      </section>
-    );
+      </div>
+
+      {/* Imagem - 50% com transição suave e sobreposição */}
+      <div className="relative w-full sm:w-[50%] h-full xl:rounded-bl-[290px] overflow-hidden">
+        {images.map((image, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: -20 }} // Começa invisível e levemente deslocada
+            animate={{
+              opacity: currentImage === index ? 1 : 0, // Torna visível apenas a imagem ativa
+              x: currentImage === index ? 0 : 20, // Faz um leve deslocamento durante a transição
+            }}
+            transition={{ duration: 1.5, ease: "easeInOut" }} // Transição suave de 1.5 segundos
+            className="absolute w-full h-full"
+          >
+            <Image
+              src={image}
+              alt={`Imagem ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+              quality={100}
+              priority={true}
+            />
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
 }

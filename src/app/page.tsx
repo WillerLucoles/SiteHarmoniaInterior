@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Hero from "./Components/hero";
+import Hero from "./components/hero";
+
+
 export default function Home() {
   return (
       <main className="max-w-[1800px] mx-auto overflow-hidden">

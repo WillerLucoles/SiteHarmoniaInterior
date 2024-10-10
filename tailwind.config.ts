@@ -19,7 +19,7 @@ const config: Config = {
       xl:'1200px',
     },
     backgroundImage:{
-      hero: 'url(/hero/Hero_Background.jpg)',   
+      hero: 'url(/hero/Background.png)',   
     },
     extend: {
       fontFamily:{
