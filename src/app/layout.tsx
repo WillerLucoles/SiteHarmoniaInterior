@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
-      <body className="container mx-auto">
+      <body className="bg-lightgray">
         {children}
       </body>
     </html>

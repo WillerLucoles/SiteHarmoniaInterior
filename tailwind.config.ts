@@ -18,6 +18,9 @@ const config: Config = {
       lg:'960px',
       xl:'1200px',
     },
+    backgroundImage:{
+      hero: 'url(/hero/Hero_Background.jpg)',   
+    },
     extend: {
       fontFamily:{
         inter: ['var(--font-inter)'],

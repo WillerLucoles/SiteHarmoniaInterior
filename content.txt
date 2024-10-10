@@ -1,0 +1,88 @@
+LINKS
+Home
+Sobre Nós
+Depoimentos
+Nossos Projetos
+Notícias
+Contato
+HERO
+Título: Deixe Seu Lar Único
+Subtítulo: Existem inúmeras formas de criar ambientes únicos e funcionais. Transforme seu espaço com harmonia e estilo.
+Texto do Botão: Solicite uma Estimativa Grátis
+STEPS (Etapas)
+Título 1: Planejamento do Projeto
+
+Título 2: Aquisição de Materiais
+
+Título 3: Execução do Projeto
+
+Subtítulo: Cada etapa é planejada com atenção aos detalhes para garantir o melhor resultado.
+
+Texto do Botão: Saiba mais
+
+ABOUT (Sobre Nós)
+Título: Criamos Ambientes Estilosos e Funcionais
+Subtítulo: A Harmonia Interior se dedica a transformar espaços, oferecendo soluções que unem conforto, estilo e funcionalidade para a sua casa.
+TESTIMONIALS (Depoimentos)
+Título: O que Nossos Clientes Dizem
+Nattasha Mith
+Greenville, EUA
+"A Harmonia Interior transformou meu espaço de uma maneira que nunca imaginei. Profissionalismo e estilo únicos."
+
+Jessica White
+Oak Ridge, EUA
+"A equipe entendeu perfeitamente minhas necessidades e criou um ambiente acolhedor e sofisticado."
+
+Mike Davis
+Berlim, Alemanha
+"Trabalho excepcional, com foco em cada detalhe. Estou muito satisfeito com o resultado."
+
+Olivia Wilson
+Blue Ridge, França
+"O time da Harmonia Interior trouxe estilo e funcionalidade ao meu lar. Recomendo fortemente!"
+
+WORK (Nossos Projetos)
+Título: Acompanhe Nossos Projetos
+Subtítulo: Cada projeto é uma oportunidade de criar algo único e especial, sempre priorizando a satisfação do cliente.
+NEWS (Notícias)
+Título: Artigos & Notícias
+Subtítulo: Fique por dentro das últimas tendências e novidades em design de interiores.
+Item 1:
+Título: Soluções para Construção e Reforma Residencial
+Data: 22 de Junho, 2024
+
+Item 2:
+Título: Ideias Inovadoras e Econômicas para Design de Interiores
+Data: 24 de Junho, 2024
+
+Item 3:
+Título: Soluções para Ambientes Corporativos
+Data: 28 de Junho, 2024
+
+CONTACT (Contato)
+Título: Quer transformar seu espaço com a Harmonia Interior?
+Subtítulo: Entre em contato conosco e descubra como podemos trazer estilo e funcionalidade ao seu lar.
+FOOTER (Rodapé)
+Logo
+Subtítulo: Transformamos espaços em lares harmoniosos e acolhedores.
+Redes Sociais
+Páginas
+
+Sobre Nós
+Depoimentos
+Nossos Projetos
+Notícias
+Contato
+Serviços
+
+Cozinha
+Área de Estar
+Banheiro
+Quarto
+Contato
+
+Endereço: Rua Exemplo, 123, Belo Horizonte, MG
+E-mail: contato@harmoniainterior.com.br
+Telefone: (31) 98765-4321
+COPYRIGHT
+Copyright © Harmonia Interior 2024. Todos os direitos reservados.
