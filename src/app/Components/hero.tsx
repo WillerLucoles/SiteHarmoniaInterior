@@ -26,7 +26,7 @@ export default function Hero() {
     <section className="flex flex-col sm:flex-row h-[1000px] xl:rounded-bl-[290px] bg-hero bg-cover">
       {/* Texto - 50% */}
       <div className="w-full sm:w-[50%] h-full flex items-center justify-center">
-        <div className="hero__text w-full flex flex-col items-start justify-start text-left px-4 sm:px-8">
+        <div className="hero__text w-full flex flex-col items-start justify-start text-left px-4 sm:px-8 md:pl-6 lg:pl-20">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-semibold mb-4">
             Seu espaço,
           </h1>
@@ -43,7 +43,7 @@ export default function Hero() {
       </div>
 
       {/* Imagem - 50% com transição suave e sobreposição */}
-      <div className="relative w-full sm:w-[50%] h-full xl:rounded-bl-[290px] overflow-hidden">
+      <div className="relative w-full sm:w-[50%] h-full xl:rounded-bl-[290px] overflow-hidden -mt-20 sm:mt-0">
         {images.map((image, index) => (
           <motion.div
             key={index}

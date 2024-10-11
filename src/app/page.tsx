@@ -1,10 +1,11 @@
-import Hero from "./components/hero";
+import Header from "./Components/header";
+import Hero from "./Components/hero";
 
 
 export default function Home() {
   return (
-      <main className="max-w-[1800px] mx-auto overflow-hidden">
-        <h1 className="h1">Interno</h1>
+      <main className="overflow-hidden">
+        <Header />
         <Hero />
 
         <div className="h-[3000px]"></div>
