@@ -11,8 +11,8 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-30 bg-lightgray">
-      <div className="mx-auto flex justify-between items-center h-[90px] px-5 lg:px-14 shadow-xl">
+    <header className="fixed top-0 left-0 right-0 w-full z-30 bg-lightgray shadow-xl">
+      <div className="max-w-[1980px] m-auto mx-auto flex justify-between items-center h-[90px] px-5 lg:px-14 ">
         {/* Logo à esquerda */}
         <div className="relative w-[200px] h-[70px]">
           <Image
@@ -42,7 +42,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Home
               </a>
@@ -50,7 +50,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Sobre nós
               </a>
@@ -58,7 +58,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Depoimentos
               </a>
@@ -66,7 +66,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Nossos Projetos
               </a>
@@ -74,7 +74,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
               >
                 Notícias
               </a>
@@ -82,7 +82,7 @@ export default function Header() {
             <li>
               <a
                 href="#"
-                className="font-inter block py-2 lg:py-0 text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
+                className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
               >
                 Contato
               </a>

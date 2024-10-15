@@ -5,7 +5,7 @@ import { FaRegChartBar } from "react-icons/fa";
 
 export default function Steps() {
   return (
-    <section className="flex justify-center px-[20px] py-10 border-b-2 border-mediumgray">
+    <section className="flex justify-center items-center px-[20px] py-12">
       <div className="m-auto max-w-[1200px] w-full">
         <div className="grid grid-cols-1 gap-12 xl:grid-cols-3 scale-90">
           <div className="steps__step text-center bg-lightgray border border-darkgray rounded-3xl p-6 flex flex-col justify-center items-center max-w-[300px] mx-auto hover:shadow-xl transition-all duration-300">
