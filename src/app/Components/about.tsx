@@ -3,7 +3,7 @@ import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="max-w-[1980px] mx-auto flex flex-col-reverse sm:flex-row px-4 sm:px-8 md:px-6 lg:px-20 items-center mb-10">
+    <section className="max-w-[1980px] mx-auto flex flex-col-reverse sm:flex-row px-4 sm:px-8 md:px-6 lg:px-20 items-center mb-12">
       {/* Texto */}
       <div className="w-full sm:w-[50%] h-full flex items-center justify-center p-4">
         <div className="hero__text w-full flex flex-col items-start justify-center text-left lg:-mt-10">
