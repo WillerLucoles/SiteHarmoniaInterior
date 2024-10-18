@@ -77,7 +77,7 @@ export default function TestimonialsSlider() {
                     <p className="text-darkgray font-poppins">{testimonial.city}</p>
                   </div>
                 </div>
-                <p className="text-darkgray italic font-poppins">"{testimonial.testimonial}"</p>
+                <p className="text-darkgray italic font-poppins">&quot;{testimonial.testimonial}&quot;</p>
               </div>
             </div>
           ))}
