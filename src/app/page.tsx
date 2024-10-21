@@ -2,7 +2,8 @@ import About from "./Components/about";
 import Header from "./Components/header";
 import Hero from "./Components/hero";
 import Steps from "./Components/steps";
-import TestimonialsSection from "./Components/Testimonials/testimonials";
+import Brands from "./Components/brands";
+import TestimonialsSection from "./Components/testimonials";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
           <Steps />
           <About />
           <TestimonialsSection />
+          <Brands />
         <div className="h-[1000px]"></div>         
         </div>
 
