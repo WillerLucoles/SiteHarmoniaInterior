@@ -60,7 +60,7 @@ export default function TestimonialsSlider() {
     <section className="max-w-[1980px] mx-auto px-4 sm:px-8 lg:px-16">
       <div className="flex flex-col items-center p-6 mt-9 bg-mediumgray rounded-[60px] py-16">
         <h2 className="text-4xl font-bold font-poppins text-center mb-8 text-lightgray">
-          O QUE NOSSOS CLIENTES DIZEM
+          O que nossos clientes dizem:
         </h2>
         <div ref={sliderRef} className="keen-slider">
           {testimonials.map((testimonial, index) => (
