@@ -26,7 +26,7 @@ export default function Works() {
   ];
 
   return (
-    <section className="max-w-[1980px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10mt-[80px] sm:mt-[100px] sm:mb-[100px]">
+    <section className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
       <div className="text-titulo mb-10 text-center mx-auto itens items-center">
         <div className="w-full flex flex-col items-center justify-center text-left lg:-mt-10">
           <h1 className="text-4xl sm:text-5xl font-poppins font-semibold mb-2">

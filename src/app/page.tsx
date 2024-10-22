@@ -5,6 +5,7 @@ import Steps from "./Components/steps";
 import Brands from "./Components/brands";
 import TestimonialsSection from "./Components/testimonials";
 import Works from "./Components/works";
+import Status from "./Components/status.";
 
 
 
@@ -20,8 +21,9 @@ export default function Home() {
           <About />
           <TestimonialsSection />
           <Works />
+          <Status />
           <Brands />
-        <div className="h-[1000px]"></div>         
+        <div className="h-[1000px]"></div>
         </div>
 
 
