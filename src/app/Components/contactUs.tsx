@@ -9,7 +9,7 @@ export default function ContactUS(){
         <h2 className="text-3xl font-bold font-poppins text-center mb-2 text-lightgray">
         Quer transformar seu espaço com a Harmonia Interior?
         </h2>
-        <p className="text-lg font-medium font-poppins text-center mb-8 text-lightgray">
+        <p className="text-md font-medium font-poppins text-center mb-8 text-lightgray">
         Entre em contato conosco e descubra como podemos trazer estilo e funcionalidade ao seu lar.
         </p>
         <button className="btn btn-primary font-poppins font-medium mb-4 lg:text-sm">
