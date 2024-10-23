@@ -7,6 +7,7 @@ import TestimonialsSection from "./Components/testimonials";
 import Works from "./Components/works";
 import Status from "./Components/status.";
 import News from "./Components/news";
+import ContactUS from "./Components/contactUs";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
           <Works />
           <Status />
           <News />
+          <ContactUS />
           <Brands />
         <div className="h-[1000px]"></div>
         </div>
