@@ -2,7 +2,6 @@ import About from "./Components/about";
 import Header from "./Components/header";
 import Hero from "./Components/hero";
 import Steps from "./Components/steps";
-import Brands from "./Components/brands";
 import TestimonialsSection from "./Components/testimonials";
 import Works from "./Components/works";
 import Status from "./Components/status.";
