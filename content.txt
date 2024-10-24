@@ -62,6 +62,7 @@ CONTACT (Contato)
 Título: Quer transformar seu espaço com a Harmonia Interior?
 Subtítulo: Entre em contato conosco e descubra como podemos trazer estilo e funcionalidade ao seu lar.
 FOOTER (Rodapé)
+
 Logo
 Subtítulo: Transformamos espaços em lares harmoniosos e acolhedores.
 Redes Sociais

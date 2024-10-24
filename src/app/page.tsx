@@ -8,6 +8,7 @@ import Works from "./Components/works";
 import Status from "./Components/status.";
 import News from "./Components/news";
 import ContactUS from "./Components/contactUs";
+import Footer from "./Components/footer";
 
 
 
@@ -26,8 +27,7 @@ export default function Home() {
           <Status />
           <News />
           <ContactUS />
-          <Brands />
-        <div className="h-[1000px]"></div>
+          <Footer />
         </div>
 
 

@@ -14,10 +14,15 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
  @apply bg-lightgray;
  @apply font-inter text-[-22px] text-mediumgray;
 }
+
 a {
  @apply font-inter text-[-20px] text-mediumgray;
 }

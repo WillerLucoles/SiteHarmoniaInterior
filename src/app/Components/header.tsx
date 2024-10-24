@@ -41,7 +41,7 @@ export default function Header() {
           <ul className="flex flex-col lg:flex-row lg:space-x-6 text-center lg:text-right bg-lightgray lg:bg-transparent absolute lg:static top-[90px] left-0 w-full lg:w-auto">
             <li>
               <a
-                href="#"
+                href="#Hero"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Home
@@ -49,7 +49,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#AboutUS"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Sobre nós
@@ -57,7 +57,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#Testimonial"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Depoimentos
@@ -65,7 +65,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#Works"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold text-darkgray hover:text-mediumgray transition-colors"
               >
                 Nossos Projetos
@@ -73,7 +73,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#News"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
               >
                 Notícias
@@ -81,7 +81,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="#ContactUS"
                 className="font-inter block py-2 lg:py-0 lg:text-lg text-lg font-semibold  text-darkgray hover:text-mediumgray transition-colors"
               >
                 Contato

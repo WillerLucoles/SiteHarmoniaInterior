@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function ContactUS(){
   return (
-    <section className="px-4 sm:px-8 lg:px-16  bg-mediumgray">
+    <section id='ContactUS' className="px-4 sm:px-8 lg:px-16  bg-mediumgray">
       <div className="flex flex-col items-center p-6 mt-9 rounded-[60px] py-16 max-w-[1380px] mx-auto">
         <h2 className="text-3xl font-bold font-poppins text-center mb-2 text-lightgray">
         Quer transformar seu espaço com a Harmonia Interior?

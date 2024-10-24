@@ -23,7 +23,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="max-w-[1980px] m-auto flex flex-col sm:flex-row h-[1000px] xl:rounded-bl-[290px]">
+    <section id='Hero' className="max-w-[1980px] m-auto flex flex-col sm:flex-row h-[1000px] xl:rounded-bl-[290px]">
       {/* Texto - 50% */}
       <div className="w-full sm:w-[50%] h-full flex items-center justify-center">
         <div className="hero__text w-full flex flex-col items-start justify-start text-left px-4 sm:px-8 md:pl-6 lg:pl-20">
