@@ -1,6 +1,16 @@
+'use client'
+import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";
+import { useEffect } from "react";
+
+
 export default function Status() {
+  useEffect(() => {
+    ScrollFadeIn(false);
+  }, []);
+
+
     return (
-      <section className="Status bg-[#b8b8b8] mt-[80px] md:my-[100px] py-[80px] md:px-[100px]">
+      <section className=" reveal Status bg-[#b8b8b8] mt-[80px] md:my-[100px] py-[80px] md:px-[100px]">
         <div className="mx-auto grid grid-cols-1 xl:grid-cols-4 gap-12">
           <div className="stats__item text-center xl:border-r xl:border-mediumgray">
             <h3 className="h1 font-poppins font-bold text-darkgray text-5xl">10</h3>

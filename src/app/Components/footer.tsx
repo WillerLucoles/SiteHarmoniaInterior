@@ -1,9 +1,16 @@
+'use client'
 import Image from 'next/image';
+import { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { ScrollFadeIn } from './ScrollReveal/scrollreveal';
 
 export default function Footer() {
+  useEffect(() => {
+    ScrollFadeIn(false);
+  }, []);
+
   return (
-    <footer className="max-w-[1900px] mx-auto py-10">
+    <footer className="reveal max-w-[1900px] mx-auto py-10">
       <div className="flex flex-col lg:flex-row justify-between gap-6 px-4">
         
         {/* Primeira Coluna */}

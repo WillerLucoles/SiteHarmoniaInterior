@@ -1,5 +1,8 @@
+'use client'
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import { ScrollFromBottom, ScrollFromLeft } from "./ScrollReveal/scrollreveal";
+import { useEffect } from "react";
 
 export default function Works() {
   const projects = [
@@ -24,10 +27,14 @@ export default function Works() {
       imageSrc: "/work/04.png",
     },
   ];
+  useEffect(() => {
+    ScrollFromLeft(false);
+    ScrollFromBottom(false);
+  }, []);
 
   return (
     <section id='Works' className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
-      <div className="text-titulo mb-10 text-center mx-auto itens items-center">
+      <div className="revealleft text-titulo mb-10 text-center mx-auto itens items-center">
         <div className="w-full flex flex-col items-center justify-center text-left lg:-mt-10">
           <h1 className="text-4xl sm:text-5xl font-poppins font-semibold mb-2">
             Acompanhe Nossos Projetos
@@ -40,7 +47,7 @@ export default function Works() {
       </div>
 
       {/* Flex layout para os projetos */}
-      <div className="w-full flex flex-wrap justify-center gap-16">
+      <div className="reveal w-full flex flex-wrap justify-center gap-16">
         {projects.map((project, index) => (
           <div
             key={index}
