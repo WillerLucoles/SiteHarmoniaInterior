@@ -1,13 +1,10 @@
 'use client'
 
-import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";
-import { useEffect } from "react";
+
 
 
 export default function Status() {
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
 
 
     return (

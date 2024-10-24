@@ -1,14 +1,12 @@
 'use client'
 
 import Image from 'next/image';
-import { useEffect } from 'react';
+
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import { ScrollFadeIn } from './ScrollReveal/scrollreveal';
+
 
 export default function Footer() {
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
 
   return (
     <footer className="revealfade max-w-[1900px] mx-auto py-10">

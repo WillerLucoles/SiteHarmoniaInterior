@@ -4,14 +4,11 @@ import { MdArchitecture } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa";
 import { FaRegChartBar } from "react-icons/fa";
-import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";
-import { useEffect } from "react";
+
 
 
 export default function Steps() {
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
 
   return (
     <section className="revealfade flex justify-center items-center px-[20px] py-12">

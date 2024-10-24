@@ -1,13 +1,11 @@
 'use client'
-import { useEffect } from "react";
+
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";
+
 
 
 export default function ContactUS(){
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
 
   return (
     <section id='ContactUS' className="revealfade px-4 sm:px-8 lg:px-16  bg-mediumgray">

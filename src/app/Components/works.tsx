@@ -1,14 +1,10 @@
 'use client'
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFromBottom, ScrollFromLeft } from "./ScrollReveal/scrollreveal";
-import { useEffect } from "react";
+
 
 export default function Works() {
-  useEffect(() => {
-    ScrollFromLeft(false);
-    ScrollFromBottom(false);
-  }, []);
+
   
   const projects = [
     {

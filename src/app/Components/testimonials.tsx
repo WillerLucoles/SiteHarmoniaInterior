@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
-import { ScrollFadeIn } from './ScrollReveal/scrollreveal';
+
 
 interface Testimonial {
   photo: string;
@@ -41,9 +41,7 @@ const testimonials: Testimonial[] = [
 
 export default function TestimonialsSlider() {
 
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
   
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     loop: true,

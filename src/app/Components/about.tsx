@@ -2,14 +2,10 @@
 
 import Image from "next/image";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
-import {useEffect } from "react";
-import { ScrollFromLeft, ScrollFromRight } from "./ScrollReveal/scrollreveal";
+
 
 export default function About() {
-  useEffect(() => {
-    ScrollFromLeft(false);
-    ScrollFromRight(false);
-  }, []);
+
   
   return (
     <section id='AboutUS' className="max-w-[1980px] mx-auto flex flex-col-reverse sm:flex-row px-4 sm:px-8 md:px-6 lg:px-20 items-center mb-12">

@@ -1,9 +1,9 @@
 'use client'
 
 import Image from "next/image";
-import { useEffect } from "react";
+
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFromBottom, ScrollFromLeft } from "./ScrollReveal/scrollreveal";
+
 
 export default function News() {
   const projects = [
@@ -27,10 +27,7 @@ export default function News() {
     },
   ];
 
-  useEffect(() => {
-    ScrollFromLeft(false);
-    ScrollFromBottom(false);
-  }, []);
+
 
   return (
     <section id='News' className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
