@@ -27,6 +27,7 @@ export default function Works() {
       imageSrc: "/work/04.png",
     },
   ];
+  
   useEffect(() => {
     ScrollFromLeft(false);
     ScrollFromBottom(false);

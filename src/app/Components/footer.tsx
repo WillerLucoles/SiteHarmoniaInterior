@@ -1,4 +1,5 @@
 'use client'
+
 import Image from 'next/image';
 import { useEffect } from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -54,11 +55,11 @@ export default function Footer() {
         <div className="lg:w-1/4 flex flex-col">
           <h4 className="text-2xl font-semibold text-darkgray mb-4 font-poppins">Serviços</h4>
           <ul className="space-y-2">
-            <li><a href="#Works" className="hover:text-mediumgray font-medium font-poppins text-xl">Cozinha</a></li>
-            <li><a href="#Works" className="hover:text-mediumgray font-medium font-poppins text-xl">Área de Estar</a></li>
-            <li><a href="#Works" className="hover:text-mediumgray font-medium font-poppins text-xl">Banheiro</a></li>
-            <li><a href="#Works" className="hover:text-mediumgray font-medium font-poppins text-xl">Quarto</a></li>
-            <li><a href="#Works" className="hover:text-mediumgray font-medium font-poppins text-xl">Contato</a></li>
+            <li><a href="#" className="hover:text-mediumgray font-medium font-poppins text-xl">Cozinha</a></li>
+            <li><a href="#" className="hover:text-mediumgray font-medium font-poppins text-xl">Área de Estar</a></li>
+            <li><a href="#" className="hover:text-mediumgray font-medium font-poppins text-xl">Banheiro</a></li>
+            <li><a href="#" className="hover:text-mediumgray font-medium font-poppins text-xl">Quarto</a></li>
+            <li><a href="#" className="hover:text-mediumgray font-medium font-poppins text-xl">Contato</a></li>
           </ul>
         </div>
 

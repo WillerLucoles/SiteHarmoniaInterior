@@ -1,4 +1,5 @@
 'use client'
+
 import Image from "next/image";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
 import {useEffect } from "react";

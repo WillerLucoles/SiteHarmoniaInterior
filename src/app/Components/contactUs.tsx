@@ -1,5 +1,4 @@
 'use client'
-
 import { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";

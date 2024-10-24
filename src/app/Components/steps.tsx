@@ -12,6 +12,7 @@ export default function Steps() {
   useEffect(() => {
     ScrollFadeIn(false);
   }, []);
+  
   return (
     <section className="reveal flex justify-center items-center px-[20px] py-12">
       <div className="m-auto max-w-[1200px] w-full">

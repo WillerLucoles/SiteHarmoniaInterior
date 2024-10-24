@@ -1,4 +1,5 @@
 'use client'
+
 import { ScrollFadeIn } from "./ScrollReveal/scrollreveal";
 import { useEffect } from "react";
 
