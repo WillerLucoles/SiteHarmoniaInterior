@@ -1,5 +1,4 @@
 'use client'
-
 import ScrollReveal from 'scrollreveal';
 
 // Configuração global de ScrollReveal
