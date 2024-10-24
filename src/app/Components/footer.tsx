@@ -11,7 +11,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="reveal max-w-[1900px] mx-auto py-10">
+    <footer className="revealfade max-w-[1900px] mx-auto py-10">
       <div className="flex flex-col lg:flex-row justify-between gap-6 px-4">
         
         {/* Primeira Coluna */}

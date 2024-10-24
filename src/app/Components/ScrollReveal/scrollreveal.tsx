@@ -2,7 +2,7 @@ import ScrollReveal from 'scrollreveal';
 
 // Configuração global de ScrollReveal
 export const ScrollFromTop = (reset: boolean = false) => {
-  ScrollReveal().reveal('.reveal', {
+  ScrollReveal().reveal('.revealtop', {
     origin: 'top',    // Animação vem de baixo
     distance: '50px',    // Distância do movimento
     duration: 800,       // Duração da animação em milissegundos
@@ -14,7 +14,7 @@ export const ScrollFromTop = (reset: boolean = false) => {
 
 // Função 2: Animação de baixo para cima
 export const ScrollFromBottom = (reset: boolean = false) => { 
-    ScrollReveal().reveal('.reveal', {
+    ScrollReveal().reveal('.revealbottom', {
       origin: 'bottom',    
       distance: '50px',    
       duration: 800,       
@@ -50,7 +50,7 @@ export const ScrollFromRight = (reset: boolean = false) => {
 
   // Função 5: Aparecer gradativamente (fade in)
 export const ScrollFadeIn = (reset: boolean = false) => { 
-    ScrollReveal().reveal('.reveal', {
+    ScrollReveal().reveal('.revealfade', {
       opacity: 0,
       duration: 1000,
       reset: reset,

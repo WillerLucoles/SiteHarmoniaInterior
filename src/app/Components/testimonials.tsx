@@ -40,6 +40,11 @@ const testimonials: Testimonial[] = [
 ];
 
 export default function TestimonialsSlider() {
+
+  useEffect(() => {
+    ScrollFadeIn(false);
+  }, []);
+  
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: 'free',
@@ -56,13 +61,11 @@ export default function TestimonialsSlider() {
       },
     },
   });
-  
-  useEffect(() => {
-    ScrollFadeIn(false);
-  }, []);
+
+
 
   return (
-    <section id='Testimonial' className="reveal px-4 sm:px-8 lg:px-16  bg-mediumgray">
+    <section id='Testimonial' className="revealfade px-4 sm:px-8 lg:px-16  bg-mediumgray">
       <div className="flex flex-col items-center p-6 mt-9 rounded-[60px] py-16 max-w-[1380px] mx-auto">
         <h2 className="text-4xl font-bold font-poppins text-center mb-8 text-lightgray">
           O que nossos clientes dizem:

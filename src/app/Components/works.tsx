@@ -5,6 +5,11 @@ import { ScrollFromBottom, ScrollFromLeft } from "./ScrollReveal/scrollreveal";
 import { useEffect } from "react";
 
 export default function Works() {
+  useEffect(() => {
+    ScrollFromLeft(false);
+    ScrollFromBottom(false);
+  }, []);
+  
   const projects = [
     {
       title: "Sala ambiente",
@@ -27,11 +32,8 @@ export default function Works() {
       imageSrc: "/work/04.png",
     },
   ];
-  
-  useEffect(() => {
-    ScrollFromLeft(false);
-    ScrollFromBottom(false);
-  }, []);
+
+
 
   return (
     <section id='Works' className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
@@ -48,7 +50,7 @@ export default function Works() {
       </div>
 
       {/* Flex layout para os projetos */}
-      <div className="reveal w-full flex flex-wrap justify-center gap-16">
+      <div className="revealbottom w-full flex flex-wrap justify-center gap-16">
         {projects.map((project, index) => (
           <div
             key={index}

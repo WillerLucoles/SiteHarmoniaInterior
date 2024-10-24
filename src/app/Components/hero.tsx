@@ -8,6 +8,11 @@ import { ScrollFromTop } from './ScrollReveal/scrollreveal';
 
 
 export default function Hero() {
+  
+  useEffect(() => {
+    ScrollFromTop(false);
+  }, []);
+  
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
     "/hero/pexels_Hero_Background1.jpg",
@@ -18,20 +23,16 @@ export default function Hero() {
 
   // Função para avançar para a próxima imagem automaticamente a cada 4 segundos
   useEffect(() => {
-    ScrollFromTop(false);
-
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
     }, 4000); // Transição automática a cada 4 segundos
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
-
-    
-  }, []);
+  }, []);    
 
   return (
     <section id='Hero' className="max-w-[1980px] m-auto flex flex-col sm:flex-row h-[1000px] xl:rounded-bl-[290px]">
       {/* Texto - 50% */}
-      <div className="reveal w-full sm:w-[50%] h-full flex items-center justify-center">
+      <div className="revealtop w-full sm:w-[50%] h-full flex items-center justify-center">
         <div className="hero__text w-full flex flex-col items-start justify-start text-left px-4 sm:px-8 md:pl-6 lg:pl-20">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-semibold mb-4">
             Seu espaço,
