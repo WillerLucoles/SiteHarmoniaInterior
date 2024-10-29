@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
+import { ScrollFromLeft, ScrollFromRight } from "./FramerMotion/animedScroll";
 
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
   return (
     <section id='AboutUS' className="max-w-[1980px] mx-auto flex flex-col-reverse sm:flex-row px-4 sm:px-8 md:px-6 lg:px-20 items-center mb-12">
       {/* Texto */}
-      <div className="revealleft w-full sm:w-[50%] h-full flex items-center justify-center p-4">
+      <ScrollFromRight className="revealleft w-full sm:w-[50%] h-full flex items-center justify-center p-4">
         <div className="hero__text w-full flex flex-col items-start justify-center text-left lg:-mt-10">
           <h1 className="text-4xl md:text-6xl font-poppins font-semibold mb-2">
             Criamos Ambientes
@@ -41,9 +42,9 @@ export default function About() {
             Fale conosco <FaArrowRight />
           </button>
         </div>
-      </div>
+      </ScrollFromRight>
       {/* Imagem */}
-      <div className="revealright relative w-full sm:w-[50%] rounded-bl-[180px] rounded-tr-[180px] overflow-hidden flex items-center justify-center drop-shadow-xl">
+      <ScrollFromLeft className="revealright relative w-full sm:w-[50%] rounded-bl-[180px] rounded-tr-[180px] overflow-hidden flex items-center justify-center drop-shadow-xl">
         <div className="w-full h-full p-2 sm:pl-8 md:pl-6 lg:pl-20">
           <Image
             src="/about/About_Background.jpg"
@@ -57,7 +58,7 @@ export default function About() {
             priority={true}
           />
         </div>
-      </div>
+      </ScrollFromLeft>
     </section>
   );
 }

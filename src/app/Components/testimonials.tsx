@@ -3,6 +3,7 @@
 import React from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
+import { ScrollFadeIn } from './FramerMotion/animedScroll';
 
 
 interface Testimonial {
@@ -63,32 +64,34 @@ export default function TestimonialsSlider() {
 
 
   return (
-    <section id='Testimonial' className="revealfade px-4 sm:px-8 lg:px-16  bg-mediumgray">
-      <div className="flex flex-col items-center p-6 mt-9 rounded-[60px] py-16 max-w-[1380px] mx-auto">
-        <h2 className="text-4xl font-bold font-poppins text-center mb-8 text-lightgray">
-          O que nossos clientes dizem:
-        </h2>
-        <div ref={sliderRef} className="keen-slider">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="keen-slider__slide">
-              <div className="bg-lightgray p-6 rounded-lg shadow-md w-[350px] h-[200px]">
-                <div className="flex items-center gap-4 mb-6">
-                  <img
-                    src={testimonial.photo}
-                    alt={`${testimonial.name} photo`}
-                    className="w-16 h-16 rounded-full mr-4"
-                  />
-                  <div>
-                    <h3 className="text-darkgray font-bold text-lg font-poppins">{testimonial.name}</h3>
-                    <p className="text-darkgray font-poppins">{testimonial.city}</p>
+    <ScrollFadeIn>
+      <section id='Testimonial' className="revealfade px-4 sm:px-8 lg:px-16  bg-mediumgray">
+        <div className="flex flex-col items-center p-6 mt-9 rounded-[60px] py-16 max-w-[1380px] mx-auto">
+          <h2 className="text-4xl font-bold font-poppins text-center mb-8 text-lightgray">
+            O que nossos clientes dizem:
+          </h2>
+          <div ref={sliderRef} className="keen-slider">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="keen-slider__slide">
+                <div className="bg-lightgray p-6 rounded-lg shadow-md w-[350px] h-[200px]">
+                  <div className="flex items-center gap-4 mb-6">
+                    <img
+                      src={testimonial.photo}
+                      alt={`${testimonial.name} photo`}
+                      className="w-16 h-16 rounded-full mr-4"
+                    />
+                    <div>
+                      <h3 className="text-darkgray font-bold text-lg font-poppins">{testimonial.name}</h3>
+                      <p className="text-darkgray font-poppins">{testimonial.city}</p>
+                    </div>
                   </div>
+                  <p className="text-darkgray italic font-poppins">&quot;{testimonial.testimonial}&quot;</p>
                 </div>
-                <p className="text-darkgray italic font-poppins">&quot;{testimonial.testimonial}&quot;</p>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </ScrollFadeIn>
   );
 }

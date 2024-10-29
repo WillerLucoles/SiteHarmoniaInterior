@@ -3,13 +3,15 @@
 import Image from 'next/image';
 
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { ScrollFromBottom } from './FramerMotion/animedScroll';
 
 
 export default function Footer() {
 
 
   return (
-    <footer className="revealfade max-w-[1900px] mx-auto py-10">
+    <ScrollFromBottom className='m-0 p-0'>
+    <footer className="max-w-[1900px] mx-auto py-10">
       <div className="flex flex-col lg:flex-row justify-between gap-6 px-4">
         
         {/* Primeira Coluna */}
@@ -80,5 +82,6 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+    </ScrollFromBottom>
   );
 }

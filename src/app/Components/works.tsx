@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import { ScrollFadeIn, ScrollFromLeft } from "./FramerMotion/animedScroll";
 
 
 export default function Works() {
@@ -33,7 +34,7 @@ export default function Works() {
 
   return (
     <section id='Works' className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
-      <div className="revealleft text-titulo mb-10 text-center mx-auto itens items-center">
+      <ScrollFromLeft className="revealleft text-titulo mb-10 text-center mx-auto itens items-center">
         <div className="w-full flex flex-col items-center justify-center text-left lg:-mt-10">
           <h1 className="text-4xl sm:text-5xl font-poppins font-semibold mb-2">
             Acompanhe Nossos Projetos
@@ -43,10 +44,10 @@ export default function Works() {
             sempre priorizando a satisfação do cliente.
           </h2>
         </div>
-      </div>
+      </ScrollFromLeft>
 
       {/* Flex layout para os projetos */}
-      <div className="revealbottom w-full flex flex-wrap justify-center gap-16">
+      <ScrollFadeIn className="revealbottom w-full flex flex-wrap justify-center gap-16">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -77,7 +78,7 @@ export default function Works() {
             </div>
           </div>
         ))}
-      </div>
+      </ScrollFadeIn>
     </section>
   );
 }

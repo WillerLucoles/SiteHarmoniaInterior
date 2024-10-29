@@ -3,6 +3,7 @@
 import Image from "next/image";
 
 import { FaArrowRight } from "react-icons/fa";
+import { ScrollFadeIn, ScrollFromBottom } from "./FramerMotion/animedScroll";
 
 
 export default function News() {
@@ -31,7 +32,7 @@ export default function News() {
 
   return (
     <section id='News' className="max-w-[1580px] mx-auto flex flex-col px-4 sm:px-8 md:px-6 lg:px-20 mb-8 mt-10 sm:mt-[100px] sm:mb-[100px]">
-      <div className="revealleft text-titulo mb-10 text-center mx-auto itens items-center ">
+      <ScrollFadeIn className="revealleft text-titulo mb-10 text-center mx-auto itens items-center ">
         <div className="w-full flex flex-col items-center justify-center text-left lg:-mt-10">
           <h1 className="text-4xl sm:text-5xl font-poppins font-semibold mb-2">
             Artigos & Notícias
@@ -41,9 +42,9 @@ export default function News() {
             interiores.
           </h2>
         </div>
-      </div>
+      </ScrollFadeIn>
 
-      <div className="reveal w-full flex flex-wrap justify-center gap-16 ">
+      <ScrollFromBottom className="reveal w-full flex flex-wrap justify-center gap-16 ">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -86,7 +87,7 @@ export default function News() {
             </div>
           </div>
         ))}
-      </div>
+      </ScrollFromBottom>
     </section>
   );
 }
