@@ -10,7 +10,7 @@ export default function Footer() {
 
 
   return (
-    <ScrollFromBottom className='m-0 p-0'>
+    <ScrollFromBottom>
     <footer className="max-w-[1900px] mx-auto py-10">
       <div className="flex flex-col lg:flex-row justify-between gap-6 px-4">
         
