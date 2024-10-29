@@ -3,7 +3,8 @@
 import Image from "next/image";
 
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFadeIn, ScrollFromBottom } from "./animedscroll";
+import { ScrollFadeIn, ScrollFromBottom } from "./scrollstyle";
+
 
 
 export default function News() {

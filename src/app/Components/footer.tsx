@@ -3,7 +3,8 @@
 import Image from 'next/image';
 
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import { ScrollFromBottom } from "./animedscroll";
+import { ScrollFromBottom } from './scrollstyle';
+
 
 
 export default function Footer() {

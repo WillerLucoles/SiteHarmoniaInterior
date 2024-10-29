@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFromTop } from "./animedscroll";
+import { ScrollFromTop } from "./scrollstyle";
+
 
 export default function Hero() {
   const [currentImage, setCurrentImage] = useState(0);

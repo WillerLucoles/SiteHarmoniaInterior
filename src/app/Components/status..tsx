@@ -1,6 +1,8 @@
 'use client'
 
-import { ScrollFadeIn } from "./animedscroll";
+import { ScrollFadeIn } from "./scrollstyle";
+
+
 
 
 

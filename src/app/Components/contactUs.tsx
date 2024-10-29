@@ -1,7 +1,8 @@
 'use client'
 
 import { FaArrowRight } from "react-icons/fa";
-import { ScrollFadeIn } from "./animedscroll";
+import { ScrollFadeIn } from "./scrollstyle";
+
 
 
 

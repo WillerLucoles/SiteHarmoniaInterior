@@ -4,7 +4,8 @@ import { MdArchitecture } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa";
 import { FaRegChartBar } from "react-icons/fa";
-import { ScrollFadeIn } from "./animedscroll";
+import { ScrollFadeIn } from "./scrollstyle";
+
 
 
 
