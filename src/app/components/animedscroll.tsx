@@ -1,10 +1,15 @@
-// ScrollAnimations.js
+// ScrollAnimations.tsx
 import { motion, useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, ReactNode } from 'react';
+
+interface ScrollAnimationProps {
+  children: ReactNode;
+  className?: string;
+}
 
 // Função 1: Animação de cima para baixo
-export const ScrollFromTop = ({ children, className = '' }) => {
-  const ref = useRef(null);
+export const ScrollFromTop = ({ children, className = '' }: ScrollAnimationProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
   return (
@@ -21,8 +26,8 @@ export const ScrollFromTop = ({ children, className = '' }) => {
 };
 
 // Função 2: Animação de baixo para cima
-export const ScrollFromBottom = ({ children, className = '' }) => {
-  const ref = useRef(null);
+export const ScrollFromBottom = ({ children, className = '' }: ScrollAnimationProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
   return (
@@ -39,8 +44,8 @@ export const ScrollFromBottom = ({ children, className = '' }) => {
 };
 
 // Função 3: Animação da esquerda para a direita
-export const ScrollFromLeft = ({ children, className = '' }) => {
-  const ref = useRef(null);
+export const ScrollFromLeft = ({ children, className = '' }: ScrollAnimationProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
   return (
@@ -57,8 +62,8 @@ export const ScrollFromLeft = ({ children, className = '' }) => {
 };
 
 // Função 4: Animação da direita para a esquerda
-export const ScrollFromRight = ({ children, className = '' }) => {
-  const ref = useRef(null);
+export const ScrollFromRight = ({ children, className = '' }: ScrollAnimationProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
   return (
@@ -75,8 +80,8 @@ export const ScrollFromRight = ({ children, className = '' }) => {
 };
 
 // Função 5: Aparecer gradativamente (fade in)
-export const ScrollFadeIn = ({ children, className = '' }) => {
-  const ref = useRef(null);
+export const ScrollFadeIn = ({ children, className = '' }: ScrollAnimationProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
   return (

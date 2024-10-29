@@ -1,6 +1,6 @@
 'use client'
 
-import { ScrollFadeIn } from "./FramerMotion/animedScroll";
+import { ScrollFadeIn } from "./animedscroll";
 
 
 

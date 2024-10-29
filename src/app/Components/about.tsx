@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
-import { ScrollFromLeft, ScrollFromRight } from "./FramerMotion/animedScroll";
+import { ScrollFromLeft, ScrollFromRight } from "./animedscroll";
 
 
 export default function About() {

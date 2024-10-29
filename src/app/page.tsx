@@ -1,14 +1,14 @@
 
-import About from "./Components/about";
-import Header from "./Components/header";
-import Hero from "./Components/hero";
-import Steps from "./Components/steps";
-import TestimonialsSection from "./Components/testimonials";
-import Works from "./Components/works";
-import Status from "./Components/status.";
-import News from "./Components/news";
-import ContactUS from "./Components/contactUs";
-import Footer from "./Components/footer";
+import About from "./components/about";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Steps from "./components/steps";
+import TestimonialsSection from "./components/testimonials";
+import Works from "./components/works";
+import Status from "./components/status.";
+import News from "./components/news";
+import ContactUS from "./components/contactUs";
+import Footer from "./components/footer";
 
 
 
