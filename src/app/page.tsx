@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-      <main className="overflow-hidden">
+      <main className="harmonia overflow-hidden">
         <Header />
         <div className="bg-hero bg-cover">
         <Hero />
