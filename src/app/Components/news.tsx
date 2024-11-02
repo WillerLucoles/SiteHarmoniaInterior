@@ -12,19 +12,19 @@ export default function News() {
     {
       title: "Sala ambiente",
       subtitle: "Arte Moderna",
-      imageSrc: "/news/01.png",
+      imageSrc: "/news/LivingRoomMinimalist.png",
       date:"Junho, 2024",
     },
     {
       title: "Cozinha Gourmet",
       subtitle: "Design Funcional",
-      imageSrc: "/news/02.png",
+      imageSrc: "/news/KitchenMinimalist.png",
       date:"Junho, 2024",
     },
     {
       title: "Quarto Minimalista",
       subtitle: "Estilo Contemporâneo",
-      imageSrc: "/news/03.png",
+      imageSrc: "/news/BedRoomMinimalist.png",
       date:"Junho, 2024",
     },
   ];
