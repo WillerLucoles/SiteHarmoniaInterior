@@ -12,22 +12,22 @@ export default function Works() {
     {
       title: "Sala ambiente",
       subtitle: "Arte Moderna",
-      imageSrc: "/work/01.png",
+      imageSrc: "/work/LivingRoom.png",
     },
     {
       title: "Cozinha Gourmet",
       subtitle: "Design Funcional",
-      imageSrc: "/work/02.png",
+      imageSrc: "/work/Kitchen.png",
     },
     {
       title: "Quarto Minimalista",
       subtitle: "Estilo Contemporâneo",
-      imageSrc: "/work/03.png",
+      imageSrc: "/work/BedRoom.png",
     },
     {
       title: "Área Externa",
       subtitle: "Paisagismo Natural",
-      imageSrc: "/work/04.png",
+      imageSrc: "/work/Backyard.png",
     },
   ];
 
